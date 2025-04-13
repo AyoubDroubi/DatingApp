@@ -6,6 +6,8 @@ namespace API.Extensions;
 
 public static class IdentityServiceExtensions
 {
+    // builder.Services => services
+    // builder.Configuration => config
     public static IServiceCollection AddIdentityServices(this IServiceCollection services,
         IConfiguration config)
     {
