@@ -1,0 +1,5 @@
+cd Client
+npm start
+npm install
+npm install @angular-devkit/build-angular --save-dev
+ng serve
